@@ -22,7 +22,12 @@ h1 {
 #tempLeft, #tempRight {
     text-align: left;
 }
-
+ul {
+    max-height: 700px;
+    overflow:hidden; 
+    overflow-y:scroll;
+    list-style: none;
+}
 li {
     color:#212427;
     margin-top: 10px;
