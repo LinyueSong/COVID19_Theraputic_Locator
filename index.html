@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Public Therapeutic Locator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+<body>
+    <div id="Content">
+        <img src="images/alex-lvrs-mwINQsW2KJs-unsplash.jpg", width="42%">
+        <div id="Right", width="55%">
+            <h1>COVID-19 Public Therapeutic Locator</h1>
+            <form id="form">
+                <input type="number" name="zip" id="searchBar" placeholder="Zip Code here!">
+                <input type="submit" name="submit" id="searchButton" value="Search">
+            </form>
+            <div id="results">
+                <ul id="list">
+                    <li style="display: none" data-type="template" id="template">
+                        <div id="tempLeft">
+                            <p id="providerName">Provider Name: </p>
+                            <p id="orderName">Therapeutic Name:  </p>
+                            <p id="status">Status: </p>
+                        </div>
+                        <div id="tempRight">
+                            <p id="address1">Address: </p>
+                            <p id="zip">         </p>
+                            <a>Find On Google Maps</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
